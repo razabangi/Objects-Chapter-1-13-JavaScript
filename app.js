@@ -406,8 +406,259 @@
 
 // Chapter No 9 to 11 Start
 
+// Answer No 1:
+// var city = prompt("Enter your city name:");
+// if(city == "karachi" || city == "KARACHI" || city == "Karachi" || city == "khi" || city == "KHI"){
+//     document.write("Welcome to city of lights!");
+// } else {
+//     document.write(`Welcome from your city ${city}`);
+// }
 
+// Answer No 2:
+// var gender = prompt("Enter your gender:");
+// if(gender == "male"){
+//     document.write("Good Morning Sir!");
+// } else if (gender == "female"){
+//     document.write("Good Morning Ma\'am");
+// } else {
+//     document.write("Good Morning!");
+// }
+
+// Answer No 3:
+// var color = prompt("Enter a road traffic signal color:");
+// if(color == "red"){
+//     document.write("Must Stop");
+// } else if(color == "yellow"){
+//     document.write("Ready to move");
+// } else if(color == "green"){
+//     document.write("Move now");
+// } else {
+//     document.write("something went wrong!");
+// }
+
+// Answer No 4:
+// var fuel = prompt("Enter your current fuel:");
+// if(fuel < 0.25){
+//     document.write("Please refill the fuel in your car!");
+// } else{
+//     document.write("Looking seems good!");
+// }
+
+// Answer No 5:
+// A:
+// var a = 4;
+// if (++a === 5){
+//     alert("given condition for variable a is true");
+// }
+// B:
+// var b = 82;
+// if (++b === 83){
+//     alert("given condition for variable b is true");
+// }
+// C:
+// var c = 12;
+// if (++c === 13){
+//     alert("condition 1 is true");
+// }
+// if (c === 13){
+//     alert("condition 2 is true");
+// }
+// if (c++ < 14){
+//     alert("condition 3 is true");
+// }
+// if(c === 14){
+//     alert("condition 4 is true");
+// }
+// D:
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//     alert("The cost equals");
+// }
+// E:
+// if (true){
+//     alert("True");
+// }
+// if (!false){
+//     alert("False");
+// }
+// F:
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+
+// Answer No 6:
+// var english = +prompt("Enter english marks");
+// if(english < 0 || english > 100){
+//     alert("English marks should be positive number and less than 100");
+//     english = 0;
+// }
+// var urdu = +prompt("Enter urdu marks");
+// if(urdu < 0 || urdu > 100) {
+//     alert("Urdu marks should be positive number and less than 100");
+//     urdu = 0;
+// }
+// var islamiat = +prompt("Enter islamiat marks");
+// if(islamiat < 0 || islamiat > 100) {
+//     alert("Islamiat marks should be positive number and less than 100");
+//     islamiat = 0;
+// }
+
+// document.write("English marks: ",english);
+// document.write("<br>Urdu marks: ",urdu);
+// document.write("<br>Islamiat marks: ",islamiat);
+// totalMarks = 300;
+// obtainedMarks = english + urdu + islamiat;
+// document.write("<br>Total Marks: ",totalMarks);
+// document.write("<br>Obtained Marks: ",obtainedMarks);
+// document.write("<br>Percentage: ", (obtainedMarks/totalMarks) * 100 + "%");
+
+// Answer No 7:
+// var number = 9;
+// var guessedNumber = prompt("Guess the number:");
+// if(guessedNumber == number){
+//     document.write("<q>Bingo! Corrent Answer</q>");
+// } else if(guessedNumber == 7 || guessedNumber == 10){
+//     document.write("<q>Close enough to the correct answer</q>");
+// } else {
+//     document.write("<q>Try Again!</q>");
+// }
+
+// Answer No 8:
+// var number = +prompt("Enter a number:");
+// if(number%3 == 0){
+//     document.write("Yes it is divisible by 3");
+// } else {
+//     document.write("No! it is not divisible by 3");
+// }
+
+// Answer No 9:
+// var number = +prompt("Enter a number:");
+// if(number % 2 == 0){
+//     document.write("Your given number is even!");
+// } else {
+//     document.write("Your given number is odd!");
+// }
+
+// Answer No 10:
+// var temperature = prompt("Enter the temperature");
+// if(temperature > 40){
+//     document.write("It is too hot outside");
+// } else if(temperature > 30){
+//     document.write("The weather today is normal");
+// } else if(temperature > 20){
+//     document.write("Today's weather is cool!");
+// } else if(temperature > 10){
+//     document.write("OMG! today's weather is so cool");
+// } else{
+//     document.write("something went wrong!");
+// }
+
+// Answer No 11:
+// var number1 = +prompt("Enter first number");
+// var number2 = +prompt("Enter second number");
+// var opr = prompt("Enter a operator");
+// if(opr == "+"){
+//     document.write(`Your sum is: ${number1 + number2}`);
+// } else if(opr == "-"){
+//     document.write(`Your subtraction is: ${number1 - number2}`);
+// } else if(opr == "*"){
+//     document.write(`Your multiplication is: ${number1 * number2}`);
+// } else if(opr == "/"){
+//     document.write(`Your divide is: ${number1 / number2}`);
+// } else if(opr == "%"){
+//     document.write(`Your module is: ${number1 % number2}`);
+// } else {
+//     document.write("Something went wrong!");
+// }
 
 // Chapter No 9 to 11 End
+
+// ----------------------------
+
+// Chapter No 12 to 13 Start
+
+// Answer No 1:
+// var data = prompt("Enter what ever you want");
+// var findASCII = data.codePointAt(0);
+// if(findASCII >= 97 && findASCII <= 122){
+//     document.write("Your value is string and lower case letter");
+// } else if(findASCII >= 65 && findASCII <= 90){
+//     document.write("Your value is string and upper case letter");
+// } else {
+//     document.write("Your value is numeric or symbol");
+// }
+
+// Answer No 2:
+// var number1 = prompt("Enter a first number");
+// var number2 = prompt("Enter a second number");
+// document.write(`Your first number is ${number1}`);
+// document.write(`<br>Your second number is ${number2}`);
+// if(number1 > number2){
+//     document.write(`<br>${number1} is the larger number`);
+// } else if(number2 > number1){
+//     document.write(`<br>${number2} is the larger number`);
+// } else if(number1 == number2){
+//     document.write(`<br>both numbers are equal`);
+// }
+
+// Answer No 3:
+// var number = prompt("Enter a number");
+// if(number == 0){
+//     document.write("Number is Zero");
+// } else if(number > 0){
+//     document.write("Number is Positive");
+// } else if(number < 0){
+//     document.write("Number is Negetive");
+// } else{
+//     document.write("Something went wrong!");
+// }
+
+// Answer No 4:
+// var data = prompt("Enter a character");
+// var vowelArr = ['a','e','o','i','u'];
+// if(vowelArr.indexOf(data) !== -1){
+//     document.write("Yes it is vowels character");
+// } else {
+//     document.write("No it is not vowels character");
+// }
+
+// Answer No 5:
+// var password = "abc";
+// var userPassword = prompt("Enter your password!");
+// if(userPassword != ''){
+//     if(userPassword == password){
+//         document.write("Correct! The password you entered matches the original password");
+//     } else {
+//         document.write("Incorrect password");
+//     }
+// } else{
+//     alert("Please enter your password");
+// }
+
+// Answer No 6:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// document.write(greeting);
+
+// Answer No 7:
+// var time = prompt("Enter the time:");
+// if(time >= 0000 && time < 1200){
+//     document.write("Good morning!");
+// } else if(time >= 1200 && time < 1700) {
+//     document.write("Good afternoon!");
+// } else if(time >= 1700 && time < 2100) {
+//     document.write("Good evening!");
+// } else if(time >= 2100 && time <= 2359) {
+//     document.write("Good night!");
+// }
+
+// Chapter No 12 to 13 End
 
 
